@@ -34,11 +34,27 @@ cd aula_streamlit
 
 ### 3. Instalar as dependências
 
-Instale as dependências listadas no arquivo `requirements.txt`:
+3.1 Ambiente virtual (opcional, mas recomendado)
+Crie e ative um ambiente virtual utilizando venv:
+
+windows:
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+macOS/Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+3.2 Instale as dependências listadas no arquivo `requirements.txt`:
 
 ```bash
 pip install -r requirements.txt
 ```
+
 
 ### 4. Rodar a aplicação
 
